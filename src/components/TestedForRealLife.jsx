@@ -35,13 +35,13 @@ export default function TestedForRealLife() {
               className="flex justify-between items-center rounded-lg p-4"
             >
               {/* Left - Icon + Text */}
-              <div className="flex items-center gap-4 justify-between bg-white px-4 py-2 rounded-2xl">
+              <div className="flex items-center gap-4 bg-white px-2 py-2 rounded-2xl w-full">
                 <img
                   src={card.icon}
                   alt="Icon"
-                  className="w-10 h-10 object-contain mt-1"
+                  className="w-10 h-10 object-contain mt-1 shrink-0"
                 />
-                <p className="text-[#5E412E] text-sm max-w-sm">{card.text}</p>
+                <p className="text-[#5E412E] text-sm break-words">{card.text}</p>
               </div>
 
               {/* Right - Video Placeholder or Button */}

@@ -64,7 +64,7 @@ export default function FAQ() {
           );
         })}
       </div>
-      <div className="my-8 bg-[#5E412E] text-white rounded-2xl mx-auto p-2 font-bold justify-between text-center w-max">Got More Questions?, We'd love to answer them!</div>
+      <div className="my-8 bg-[#5E412E] text-white rounded-2xl mx-auto p-2 font-bold justify-between text-center w-full max-w-[90%] break-words">Got More Questions?, We'd love to answer them!</div>
     </div>
   );
 }

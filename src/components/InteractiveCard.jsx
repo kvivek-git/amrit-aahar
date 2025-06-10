@@ -133,8 +133,9 @@ export default function InteractiveCard() {
         <h2 className="text-2xl text-white font-bold mb-2 text-center">THE BASICS, FIRST.</h2>
         <h1 className="text-2xl text-white mb-6 text-center">Protein from rotis? ..........sounds impossible, right?</h1>
 
-        <div className="flex flex-col md:flex-row items-start gap-6">
-          <div className="flex-1">
+        <div className="flex flex-col md:flex-row md:items-start gap-6 w-full">
+          {/* Text Section */}
+          <div className="flex-1 min-w-0">
             <p className="mb-4 text-white">
               But your body doesn't think in terms of whey or eggs or shakes. Once your food is digested, it breaks down into amino acids — and that's what your muscles are really waiting for.
             </p>
@@ -148,10 +149,17 @@ export default function InteractiveCard() {
               Our high-protein flour is thoughtfully blended to give you a complete protein with all 9 essential amino acids in the proportions your body actually needs — EVERYDAY.
             </p>
           </div>
-          <div className="w-40 md:w-48 lg:w-56 shrink-0">
-            <img src="/chapati.png" alt="Half Roti" className="w-full h-auto object-contain rounded-full" />
+
+          {/* Image Section */}
+          <div className="w-full md:w-auto flex justify-center md:block">
+            <img
+              src="/chapati.png"
+              alt="Half Roti"
+              className="w-40 md:w-48 lg:w-56 object-contain rounded-2xl"
+            />
           </div>
         </div>
+
       </div>
 
       {/* Trigger Buttons */}

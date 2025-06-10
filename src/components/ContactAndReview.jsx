@@ -66,10 +66,10 @@ export default function ContactAndReview() {
       </div>
       <h2 className="text-lg max-w-xl font-bold mb-2 p-6">
         • For Other Feedbacks & Suggestions write to us at support@amritaahaar.com
-        </h2>
-        <div className="flex justify-center">
-            <img src="/forest.png" alt="Feedback" className=" max-w-2xl h-64 mt-10 mb-4" />
-        </div>
+      </h2>
+      <div className="flex justify-center">
+        <img src="/forest.png" alt="Feedback" className="w-full max-w-2xl h-64 mt-10 mb-4 object-contain mx-auto" />
+      </div>
         
     </div>
   );
